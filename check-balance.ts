@@ -10,7 +10,7 @@ const connection = new Connection(clusterApiUrl("devnet"));
 
 console.log(`⚡️ Connected to devnet`);
 
-const publicKey = new PublicKey(YOUR_PUBLIC_KEY_HERE);
+const publicKey = new PublicKey("YOUR_PUBLIC_KEY");
 
 const balanceInLamports = await connection.getBalance(publicKey);
 
